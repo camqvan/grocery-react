@@ -5,7 +5,7 @@ const Form = ({ addItem }) => {
   const [newItemName, setNewItemName] = useState('');
   const handleSubmit = e => {
     e.preventDefault();
-    console.log(newItemName);
+    // console.log(newItemName);
     if (!newItemName) {
       toast.error('please provide value');
       return;
